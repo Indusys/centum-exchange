@@ -21,13 +21,13 @@ const __webpack_public_path__ = `${config.publicPath}images/` // It makes webpac
 
 const rootEl = document.getElementById('root')
 
-if (process.env.NODE_ENV === 'production') {
-  const userString = Cookies.get('cw_user');
-  const user = userString ? JSON.parse(userString) : null;
-  if(!(user && user.status === 'active')) {
-    window.location.href = 'https://accounts.centumworld.com';
-  }
-}
+// if (process.env.NODE_ENV === 'production') {
+//   const userString = Cookies.get('cw_user');
+//   const user = userString ? JSON.parse(userString) : null;
+//   if(!(user && user.status === 'active')) {
+//     window.location.href = 'https://accounts.centumworld.com';
+//   }
+// }
 
 if (
   !window?.STATISTIC_DISABLED &&
