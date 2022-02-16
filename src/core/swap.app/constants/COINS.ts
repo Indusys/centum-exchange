@@ -92,7 +92,7 @@ export const COIN_DATA = {
     precision: 18,
   },
   'CENT': {
-    ticker: 'CENT',
+    ticker: 'CENTUMO',
     name: 'CENTUMO TOKEN',
     type: COIN_TYPE.BNB_TOKEN,
     blockchain: BLOCKCHAIN.BNB,

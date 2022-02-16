@@ -27,10 +27,10 @@ window.widgetEvmLikeTokens = [
     fullName: 'Tether',
   },
   {
-    name: 'cent',
-    symbol: 'cent',
+    name: 'centumo',
+    symbol: 'centumo',
     standard: 'bep20',
-    address: '0x2ab2cb11327d98ad02a174d51e4fe132129f530e',
+    address: '0xa6b077aba99583f8f2aa03e2ef0df75136c7e59a',
     decimals: 18,
     fullName: 'CENTUMO TOKEN',
   },
